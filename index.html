@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#container{
+				width: 100%;
+				height: 400px;
+				position: relative;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container"></div>
+	</body>
+	
+	<script src="random.js"></script>
+	<script>
+		
+		var data = [
+					   {id:0,hobby: "屌丝"},
+					   {id:1,hobby: "愤青"},
+					   {id:2,hobby: "单身狗"},
+					   {id:3,hobby: "高富帅"},
+					   {id:4,hobby: "白富美"},
+					   {id:4,hobby: "宅男"},
+					   {id:4,hobby: "潜力股"},
+					   {id:4,hobby: "奋斗"},
+					   {id:4,hobby: "文艺青年"},
+					   {id:4,hobby: "上班族"},
+					   {id:4,hobby: "闷骚"},
+				    ]
+		
+		var obj = new CreatRandom({els: "container",num: 10,sourceData:data})
+	</script>
+	
+</html>
